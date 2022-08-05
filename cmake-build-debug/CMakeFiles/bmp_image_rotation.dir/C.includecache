@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Clabs/bmp-image-rotation/include/bmp.h
+stdint.h
+D:/Clabs/bmp-image-rotation/include/stdint.h
+stdio.h
+D:/Clabs/bmp-image-rotation/include/stdio.h
+malloc.h
+D:/Clabs/bmp-image-rotation/include/malloc.h
+inttypes.h
+D:/Clabs/bmp-image-rotation/include/inttypes.h
+
+D:/Clabs/bmp-image-rotation/include/image.h
+
+D:/Clabs/bmp-image-rotation/src/bmp.c
+../include/bmp.h
+D:/Clabs/bmp-image-rotation/include/bmp.h
+../include/image.h
+D:/Clabs/bmp-image-rotation/include/image.h
+
+D:/Clabs/bmp-image-rotation/src/image.c
+../include/bmp.h
+D:/Clabs/bmp-image-rotation/include/bmp.h
+../include/image.h
+D:/Clabs/bmp-image-rotation/include/image.h
+
+D:/Clabs/bmp-image-rotation/src/main.c
+../include/bmp.h
+D:/Clabs/bmp-image-rotation/include/bmp.h
+
+D:/Clabs/bmp-image-rotation/src/utils.c
+../include/bmp.h
+D:/Clabs/bmp-image-rotation/include/bmp.h
+
